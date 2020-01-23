@@ -17,8 +17,6 @@
 51:算式识别 52:表格识别
 '''
 
-#身份证识别暂缓，需要添加额外按钮以及接口完善
-
 from tencentcloud.common import credential
 from tencentcloud.common.profile.client_profile import ClientProfile
 from tencentcloud.common.profile.http_profile import HttpProfile
