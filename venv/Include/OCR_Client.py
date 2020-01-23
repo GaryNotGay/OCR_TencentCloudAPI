@@ -1,7 +1,7 @@
 # @Author  :  lijishi
 # @Contact :  lijishi@emails.bjut.edu.cn
 # @Software:  Pycharm & Python 3.7
-# @EditTime:  Jan 18, 2020
+# @EditTime:  Jan 23, 2020
 # @Version :  1.0
 # @describe:  A Full Client Including Confirm Availability And Text Identify
 # @LICENSE :  GNU GENERAL PUBLIC LICENSE Version 3
