@@ -244,7 +244,7 @@ def Tencent_OCR_Table(pic_str, client):
 
 #21:身份证识别
 def Tencent_OCR_IDCard(pic_str, flag_side, flag_piccut, flag_porcut):
-        cred = credential.Credential("AKIDX6Yr0xFNsFUhjdBxQjvUxJVaVCfu4bbL", "3rQXP1NUPfjX6QVLukOnwrSouqbBWfcL")
+        cred = credential.Credential("Your ID", "Your Secret")
         httpProfile = HttpProfile()
         httpProfile.endpoint = "ocr.tencentcloudapi.com"
         clientProfile = ClientProfile()
@@ -274,7 +274,7 @@ def Tencent_OCR_IDCard(pic_str, flag_side, flag_piccut, flag_porcut):
 
 #24:名片识别
 def Tencent_OCR_BusinessCard(pic_str, flag):
-        cred = credential.Credential("AKIDX6Yr0xFNsFUhjdBxQjvUxJVaVCfu4bbL", "3rQXP1NUPfjX6QVLukOnwrSouqbBWfcL")
+        cred = credential.Credential("Your ID", "Your Secret")
         httpProfile = HttpProfile()
         httpProfile.endpoint = "ocr.tencentcloudapi.com"
         clientProfile = ClientProfile()
@@ -296,7 +296,7 @@ def Tencent_OCR_BusinessCard(pic_str, flag):
 
 # 44：行驶证识别
 def Tencent_OCR_VehicleLicense(pic_str, flag):
-    cred = credential.Credential("AKIDX6Yr0xFNsFUhjdBxQjvUxJVaVCfu4bbL", "3rQXP1NUPfjX6QVLukOnwrSouqbBWfcL")
+    cred = credential.Credential("Your ID", "Your Secret")
     httpProfile = HttpProfile()
     httpProfile.endpoint = "ocr.tencentcloudapi.com"
     clientProfile = ClientProfile()
