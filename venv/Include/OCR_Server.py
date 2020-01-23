@@ -177,7 +177,7 @@ def IsOK(item):
         return 0
 
 def Check_Key(key):
-    if key == '1234567':
+    if key == 'Your Key':
         return 1
     else:
         return 0
