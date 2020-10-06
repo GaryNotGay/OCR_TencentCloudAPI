@@ -1,4 +1,6 @@
 # OCR_TencentCloudAPI    
+·V 2.0     
+[Main Update] Change Sockets To Api      
 ·V 1.0    
 Multi-Function OCR Powered By TencentCloudAPI   
 
