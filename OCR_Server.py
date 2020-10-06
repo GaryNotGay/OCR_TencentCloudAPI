@@ -13,6 +13,9 @@
 # This version is not identical to the actual server deployment version
 # Unknown bugs are possible，Be very careful when deploying
 
+# V1.0 Server Transfer Module
+# Has Stopped !!!!!!!!!!!!!!!
+
 import socket
 import os
 import sys
@@ -88,7 +91,7 @@ def socket_server_receive_data():
 
 
         month = time.strftime("%Y-%m", time.localtime())
-        data_name = 'Text_Identify_Data_' + month + '.csv'
+        data_name = '  '
         if os.path.exists(data_name):
             print('Pass!')
         else:
@@ -177,7 +180,7 @@ def IsOK(item):
         return 0
 
 def Check_Key(key):
-    if key == 'Your Key':
+    if key == '1234567':
         return 1
     else:
         return 0
